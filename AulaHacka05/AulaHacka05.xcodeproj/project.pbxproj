@@ -1,0 +1,363 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A704F42C2D5BBA0B003E0C0F /* AulaHacka05App.swift in Sources */ = {isa = PBXBuildFile; fileRef = A704F42B2D5BBA0B003E0C0F /* AulaHacka05App.swift */; };
+		A704F42E2D5BBA0B003E0C0F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A704F42D2D5BBA0B003E0C0F /* ContentView.swift */; };
+		A704F4302D5BBA0D003E0C0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A704F42F2D5BBA0D003E0C0F /* Assets.xcassets */; };
+		A704F4332D5BBA0D003E0C0F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A704F4322D5BBA0D003E0C0F /* Preview Assets.xcassets */; };
+		A704F43A2D5BBAAC003E0C0F /* RosaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A704F4392D5BBAAC003E0C0F /* RosaView.swift */; };
+		A704F43C2D5BBB40003E0C0F /* AzulView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A704F43B2D5BBB40003E0C0F /* AzulView.swift */; };
+		A704F43E2D5BBB52003E0C0F /* CinzaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A704F43D2D5BBB52003E0C0F /* CinzaView.swift */; };
+		A704F4402D5BBB65003E0C0F /* ListaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A704F43F2D5BBB65003E0C0F /* ListaView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A704F4282D5BBA0B003E0C0F /* AulaHacka05.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AulaHacka05.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A704F42B2D5BBA0B003E0C0F /* AulaHacka05App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AulaHacka05App.swift; sourceTree = "<group>"; };
+		A704F42D2D5BBA0B003E0C0F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A704F42F2D5BBA0D003E0C0F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A704F4322D5BBA0D003E0C0F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A704F4392D5BBAAC003E0C0F /* RosaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RosaView.swift; sourceTree = "<group>"; };
+		A704F43B2D5BBB40003E0C0F /* AzulView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AzulView.swift; sourceTree = "<group>"; };
+		A704F43D2D5BBB52003E0C0F /* CinzaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CinzaView.swift; sourceTree = "<group>"; };
+		A704F43F2D5BBB65003E0C0F /* ListaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListaView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A704F4252D5BBA0B003E0C0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A704F41F2D5BBA0B003E0C0F = {
+			isa = PBXGroup;
+			children = (
+				A704F42A2D5BBA0B003E0C0F /* AulaHacka05 */,
+				A704F4292D5BBA0B003E0C0F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A704F4292D5BBA0B003E0C0F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A704F4282D5BBA0B003E0C0F /* AulaHacka05.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A704F42A2D5BBA0B003E0C0F /* AulaHacka05 */ = {
+			isa = PBXGroup;
+			children = (
+				A704F42B2D5BBA0B003E0C0F /* AulaHacka05App.swift */,
+				A704F42D2D5BBA0B003E0C0F /* ContentView.swift */,
+				A704F4392D5BBAAC003E0C0F /* RosaView.swift */,
+				A704F43B2D5BBB40003E0C0F /* AzulView.swift */,
+				A704F43F2D5BBB65003E0C0F /* ListaView.swift */,
+				A704F43D2D5BBB52003E0C0F /* CinzaView.swift */,
+				A704F42F2D5BBA0D003E0C0F /* Assets.xcassets */,
+				A704F4312D5BBA0D003E0C0F /* Preview Content */,
+			);
+			path = AulaHacka05;
+			sourceTree = "<group>";
+		};
+		A704F4312D5BBA0D003E0C0F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A704F4322D5BBA0D003E0C0F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A704F4272D5BBA0B003E0C0F /* AulaHacka05 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A704F4362D5BBA0D003E0C0F /* Build configuration list for PBXNativeTarget "AulaHacka05" */;
+			buildPhases = (
+				A704F4242D5BBA0B003E0C0F /* Sources */,
+				A704F4252D5BBA0B003E0C0F /* Frameworks */,
+				A704F4262D5BBA0B003E0C0F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AulaHacka05;
+			productName = AulaHacka05;
+			productReference = A704F4282D5BBA0B003E0C0F /* AulaHacka05.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A704F4202D5BBA0B003E0C0F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					A704F4272D5BBA0B003E0C0F = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = A704F4232D5BBA0B003E0C0F /* Build configuration list for PBXProject "AulaHacka05" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A704F41F2D5BBA0B003E0C0F;
+			productRefGroup = A704F4292D5BBA0B003E0C0F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A704F4272D5BBA0B003E0C0F /* AulaHacka05 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A704F4262D5BBA0B003E0C0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A704F4332D5BBA0D003E0C0F /* Preview Assets.xcassets in Resources */,
+				A704F4302D5BBA0D003E0C0F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A704F4242D5BBA0B003E0C0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A704F43C2D5BBB40003E0C0F /* AzulView.swift in Sources */,
+				A704F43E2D5BBB52003E0C0F /* CinzaView.swift in Sources */,
+				A704F4402D5BBB65003E0C0F /* ListaView.swift in Sources */,
+				A704F43A2D5BBAAC003E0C0F /* RosaView.swift in Sources */,
+				A704F42E2D5BBA0B003E0C0F /* ContentView.swift in Sources */,
+				A704F42C2D5BBA0B003E0C0F /* AulaHacka05App.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A704F4342D5BBA0D003E0C0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A704F4352D5BBA0D003E0C0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A704F4372D5BBA0D003E0C0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AulaHacka05/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dudamav.AulaHacka05;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A704F4382D5BBA0D003E0C0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AulaHacka05/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dudamav.AulaHacka05;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A704F4232D5BBA0B003E0C0F /* Build configuration list for PBXProject "AulaHacka05" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A704F4342D5BBA0D003E0C0F /* Debug */,
+				A704F4352D5BBA0D003E0C0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A704F4362D5BBA0D003E0C0F /* Build configuration list for PBXNativeTarget "AulaHacka05" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A704F4372D5BBA0D003E0C0F /* Debug */,
+				A704F4382D5BBA0D003E0C0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A704F4202D5BBA0B003E0C0F /* Project object */;
+}
